@@ -1,0 +1,38 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.contenedor
+{
+	position: relative;
+	width: 960px;
+	height: 800px;
+	margin: 20px auto;
+	
+}
+.contenedor .box1
+{
+		position: relative;
+	width: calc(480px - 30px);
+	height: calc(800px - 30px);
+	background: #000;
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.contenedor .box
+{
+	position: relative;
+	width: calc(460px - 30px);
+	height: calc(395px - 30px);
+	background: #000;
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+}
