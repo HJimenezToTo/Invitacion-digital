@@ -24,7 +24,22 @@ body
 	overflow: hidden;
 	border-radius: 10px;
 }
-.contenedor .box
+
+.contenedor .box3{
+
+	position: relative;
+	width: calc(460px - 30px);
+	height: calc(395px - 30px);
+	background: #000;
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+
+.contenedor .box2
 {
 	position: relative;
 	width: calc(460px - 30px);
@@ -77,4 +92,28 @@ body
 	width: 80px/2;
 	height: 80px;
 	border-radius: 50%;
+}
+
+.contenedor .box1 .content {
+
+	position: absolute;
+	top: 320%;
+	height: calc(100% - 100px);
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	transform: 0.5s;
+}
+
+.contenedor .box1 .content h3 {
+	margin: 0 0 120px;
+	padding: 0;
+	color: #fff;
+	font-size: 24px;
+}
+
+.contenedor .box1 .content p {
+	margin: 0;
+	padding: 0;
+	color: #fff;
 }
