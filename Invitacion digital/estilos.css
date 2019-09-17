@@ -14,7 +14,7 @@ body
 }
 .contenedor .box1
 {
-		position: relative;
+	position: relative;
 	width: calc(480px - 30px);
 	height: calc(800px - 30px);
 	background: #000;
@@ -25,7 +25,7 @@ body
 	border-radius: 10px;
 }
 
-.contenedor .box3{
+.contenedor .box2{
 
 	position: relative;
 	width: calc(460px - 30px);
@@ -39,7 +39,7 @@ body
 }
 
 
-.contenedor .box2
+.contenedor .box3
 {
 	position: relative;
 	width: calc(460px - 30px);
@@ -76,7 +76,7 @@ body
 .contenedor .box1 .codigo {
 
 	position: absolute;
-	top: 0%;
+	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
@@ -106,6 +106,7 @@ body
 }
 
 .contenedor .box1 .content h3 {
+	
 	margin: 0 0 120px;
 	padding: 0;
 	color: #fff;
@@ -113,7 +114,70 @@ body
 }
 
 .contenedor .box1 .content p {
+	
 	margin: 0;
 	padding: 0;
 	color: #fff;
 }
+
+.contenedor .box2 .mapa {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	transition: 0.5s;
+	z-index: 1;
+}
+
+.contenedor .box2 .mapa {
+
+	top: 38px;
+	left: calc(50% - 35%);
+	width: 80px/2;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.contenedor .ubicacion {
+
+	position: absolute;
+	top: 300%;
+	height: calc(100% - 100px);
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	transform: 0.5s;
+}
+
+.contenedor .ubicacion h5 {
+
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 12px;
+}
+
+.contenedor .box2 .lugar {
+
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	transition: 0.5s;
+	z-index: 1;
+}
+
+.contenedor .box2 .lugar {
+
+    top: 245px;
+	left: calc(62% - 3%);
+	width: 80px/2;
+	height: 80px;
+	border-radius: 50%;
+}
+
