@@ -7,9 +7,10 @@ body
 .contenedor
 {
 	position: relative;
-	width: 960px;
-	height: 800px;
-	margin: 20px auto;
+	width: 97%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
 	
 }
 .contenedor .box1
@@ -206,3 +207,8 @@ body
 	color: #fff;
 }
 
+@media screen and (max-width: 600px){
+	.contenedor {
+		width: 100%;
+	}
+}
