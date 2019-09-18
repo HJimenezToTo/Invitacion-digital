@@ -13,11 +13,11 @@ body
 	overflow: hidden;
 	
 }
-.contenedor .box1
+.contenedor .columna .box
 {
 	position: relative;
-	width: calc(480px - 30px);
-	height: calc(800px - 30px);
+	width: 450px;
+	height: 770px;
 	background: #000;
 	float: left;
 	margin: 15px;
@@ -26,11 +26,11 @@ body
 	border-radius: 10px;
 }
 
-.contenedor .box2{
+.contenedor .columna2 .box{
 
 	position: relative;
-	width: calc(460px - 30px);
-	height: calc(395px - 30px);
+	width: 430px;
+	height: 365px;
 	background: #000;
 	float: left;
 	margin: 15px;
@@ -40,20 +40,7 @@ body
 }
 
 
-.contenedor .box3
-{
-	position: relative;
-	width: calc(460px - 30px);
-	height: calc(395px - 30px);
-	background: #000;
-	float: left;
-	margin: 15px;
-	box-sizing: border-box;
-	overflow: hidden;
-	border-radius: 10px;
-}
-
-.contenedor .box1 .logo {
+.contenedor .columna .logo {
 
 	position: absolute;
 	top: 0;
@@ -65,7 +52,7 @@ body
 	z-index: 1;
 }
 
-.contenedor .box1 .logo {
+.contenedor .columna .logo {
 
 	top: 20px;
 	left: calc(50% - 20%);
@@ -74,7 +61,7 @@ body
 	border-radius: 50%;
 }
 
-.contenedor .box1 .codigo {
+.contenedor .columna .codigo {
 
 	position: absolute;
 	top: 0;
@@ -86,7 +73,7 @@ body
 	z-index: 1;
 }
 
-.contenedor .box1 .codigo {
+.contenedor .columna .codigo {
 
 	top: 250px;
 	left: center;
@@ -95,7 +82,7 @@ body
 	border-radius: 50%;
 }
 
-.contenedor .box1 .content {
+.contenedor .columna .content {
 
 	position: absolute;
 	top: 320%;
@@ -106,7 +93,7 @@ body
 	transform: 0.5s;
 }
 
-.contenedor .box1 .content h3 {
+.contenedor .columna .content h3 {
 	
 	margin: 0 0 120px;
 	padding: 0;
@@ -114,14 +101,14 @@ body
 	font-size: 24px;
 }
 
-.contenedor .box1 .content p {
+.contenedor .columna .content p {
 	
 	margin: 0;
 	padding: 0;
 	color: #fff;
 }
 
-.contenedor .box2 .mapa {
+.contenedor .columna2 .mapa {
 
 	position: absolute;
 	top: 0;
@@ -133,7 +120,7 @@ body
 	z-index: 1;
 }
 
-.contenedor .box2 .mapa {
+.contenedor .columna2 .mapa {
 
 	top: 38px;
 	left: calc(50% - 35%);
@@ -161,7 +148,7 @@ body
 	font-size: 12px;
 }
 
-.contenedor .box2 .lugar {
+.contenedor .columna2 .lugar {
 
     position: absolute;
 	top: 0;
@@ -173,7 +160,7 @@ body
 	z-index: 1;
 }
 
-.contenedor .box2 .lugar {
+.contenedor .columna2 .lugar {
 
     top: 245px;
 	left: calc(62% - 3%);
@@ -182,7 +169,7 @@ body
 	border-radius: 50%;
 }
 
-.contenedor .box3 .content {
+.contenedor .columna2 .content {
 
 	position: absolute;
 	top: 12%;
@@ -193,7 +180,7 @@ body
 	transform: 0.5s;
 }
 
-.contenedor .box3 .content h3 {
+.contenedor .columna2 .content h3 {
 
     margin: 0 125px;
 	padding: 0;
@@ -201,14 +188,26 @@ body
 	font-size: 24px;
 }
 
-.contenedor .box3 .content p {
+.contenedor .columna2 .content p {
     margin: 40px;
 	padding: 0;
 	color: #fff;
 }
 
-@media screen and (max-width: 600px){
-	.contenedor {
+@media screen and (max-width: 800px){
+	.columna {
 		width: 100%;
 	}
+
+	.columna2 {
+		width: 100%;
+	}
+
 }
+
+	@media screen and (max-width: 400px){
+		.contenedor {
+			width: 100%;
+		}
+
+	}
