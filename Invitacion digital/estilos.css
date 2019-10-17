@@ -7,7 +7,7 @@ body
 .contenedor
 {
 	position: relative;
-	width: 97%;
+	width: 100%;
 	max-width: 1000px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -20,10 +20,10 @@ body
 	height: 770px;
 	background: #000;
 	float: left;
-	margin: 15px;
+	margin: 10px;
 	box-sizing: border-box;
 	overflow: hidden;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 .contenedor .columna2 .box{
@@ -33,10 +33,10 @@ body
 	height: 365px;
 	background: #000;
 	float: left;
-	margin: 15px;
+	margin: 10px;
 	box-sizing: border-box;
 	overflow: hidden;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 
@@ -194,20 +194,3 @@ body
 	color: #fff;
 }
 
-@media screen and (max-width: 800px){
-	.columna {
-		width: 100%;
-	}
-
-	.columna2 {
-		width: 100%;
-	}
-
-}
-
-	@media screen and (max-width: 400px){
-		.contenedor {
-			width: 100%;
-		}
-
-	}
